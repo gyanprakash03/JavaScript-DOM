@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <!-- tailwindcss enable -->
+    <div class="w-full h-[100vh] p-0 m-0 bg-[#00002f] overflow-hidden flex justify-center items-center ">
+
+        <div class="text-white space-y-10 text-center">
+
+            <div class="text-2xl font-semibold text-center">
+                Increment and Decrement
+            </div>
+
+            <div class="flex bg-yellow-200 text-black rounded-md py-4">
+                <button class="text-3xl font-bold px-8" id="Decrement-btn">
+                    <i class="fa-solid fa-minus"></i>
+                </button>
+
+                <div class="text-3xl font-bold px-12 border-x border-black" id="counter">0</div>
+
+                <button class="text-3xl font-bold px-8" id="Increment-btn">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+
+            <button class="text-2xl font-semibold border border-white rounded-md py-3 px-6 hover:scale-105 duration-200" id="Reset-btn">Reset</button>
+
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
